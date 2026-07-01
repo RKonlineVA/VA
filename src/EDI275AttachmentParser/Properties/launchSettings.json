@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "EDI275AttachmentParser": {
+      "commandName": "Project",
+      "commandLineArgs": "--file \"C:\\Randy-Kirksey_R\\samples\\sample_275_with_attachment.edi\"",
+      "environmentVariables": {
+        "TRIAL_EDIFABRIC_LICENSE": "c417cb9dd9d54297a55c032a74c87996",
+        "EDI275_DB_CONNECTION": "Server=RKDESKTOP\\SQLEXPRESS;Database=X12EDI75IngestionDb;Trusted_Connection=True;TrustServerCertificate=True;",
+        "DB__RunMigrations": "true",
+        "DOTNET_ENVIRONMENT": "Development"
+
+      }
+    }
+  }
+}

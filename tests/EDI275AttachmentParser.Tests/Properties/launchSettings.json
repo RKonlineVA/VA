@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "EDI275AttachmentParser.Tests": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Randy-Kirksey_R",
+      "sqlDebugging": false
+    }
+  }
+}

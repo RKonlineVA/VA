@@ -1,0 +1,34 @@
+{
+  "profiles": {
+    "X12EDI837Ingestion": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Randy-Kirksey_R\\samples\\sample_275_with_attachment.edi",
+      "environmentVariables": {
+        "EDI275_DB_CONNECTION": "Server=RKDESKTOP\\SQLEXPRESS;Database=X12EDI75IngestionDb;Trusted_Connection=True;TrustServerCertificate=True;",
+        "DB__RunMigrations": "true",
+        "DOTNET_ENVIRONMENT": "Development",
+        "OUTPUTDIRECTORY": "C:\\Randy-Kirksey_R\\Attachments\\",
+        "TRIAL_EDIFABRIC_LICENSE": "c417cb9dd9d54297a55c032a74c87996"
+        //"S3Information__Url": "http://127.0.0.1:5000",
+        //"S3Information__Bucket": "payeredi-edi",
+        //"S3Information__AccessKey": "test",
+        //"S3Information__SecretKey": "test",
+        //"S3Information__Region": "us-east-1",
+        //"S3Information__ForcePathStyle": "true",
+        //"Moto__Host": "127.0.0.1",
+        //"Moto__Port": "5000",
+        //"Moto__StartupTimeoutSeconds": "10",
+        //"Moto__StartMoto": "false",
+        //"Moto__KillExistingMoto": "false",
+        //"Moto__KillMotoOnExit": "false",
+        "Service__WorkingDir": "..",
+        "Service__TempDir": ".runtime-temp",
+        "Service__MaxConcurrency": "4",
+        "Service__PollIntervalSeconds": "5.0",
+        "Service__LogLevel": "INFO",
+        "Seeder__SourceDir": "..\\..\\samples",
+        "Seeder__Glob": "*.edi"
+      }
+    }
+  }
+}
